@@ -137,6 +137,11 @@
     justify-content: space-between;
     padding: 1rem;
   }
+
+  .close-btn {
+    display: none;
+  }
+
   .nav-toggle {
     font-size: 1.5rem;
     color: var(--clr-primary-5);
@@ -145,10 +150,11 @@
     transition: var(--transition);
     cursor: pointer;
   }
-  .nav-toggle:hover {
-    color: var(--clr-primary-1);
+  /* .nav-toggle:hover {
+    color: var(--clr-red-dark);
+    transition: color 0.3s ease;
     transform: rotate(90deg);
-  }
+  } */
   .logo {
     height: 40px;
   }
